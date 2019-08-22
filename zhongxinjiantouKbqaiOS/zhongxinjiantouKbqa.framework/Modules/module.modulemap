@@ -1,0 +1,11 @@
+framework module zhongxinjiantouKbqa {
+  umbrella header "zhongxinjiantouKbqa.h"
+
+  export *
+  module * { export * }
+}
+
+module zhongxinjiantouKbqa.Swift {
+    header "zhongxinjiantouKbqa-Swift.h"
+    requires objc
+}

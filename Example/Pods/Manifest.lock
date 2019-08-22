@@ -1,0 +1,16 @@
+PODS:
+  - zhongxinjiantouKbqaiOS (0.1.0)
+
+DEPENDENCIES:
+  - zhongxinjiantouKbqaiOS (from `../`)
+
+EXTERNAL SOURCES:
+  zhongxinjiantouKbqaiOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  zhongxinjiantouKbqaiOS: 57b71caf3717ce7853a69295a156971c40917301
+
+PODFILE CHECKSUM: 85825bcf0c94d29acb4a969fdca0098a6edbd5e2
+
+COCOAPODS: 1.7.4

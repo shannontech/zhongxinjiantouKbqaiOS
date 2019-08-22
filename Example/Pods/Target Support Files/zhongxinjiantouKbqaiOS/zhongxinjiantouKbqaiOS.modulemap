@@ -1,0 +1,6 @@
+framework module zhongxinjiantouKbqaiOS {
+  umbrella header "zhongxinjiantouKbqaiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

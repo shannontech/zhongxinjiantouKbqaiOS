@@ -1,0 +1,22 @@
+{
+  "name": "zhongxinjiantouKbqaiOS",
+  "version": "0.1.0",
+  "summary": "A short description of zhongxinjiantouKbqaiOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wang_duo@shannonai.com/zhongxinjiantouKbqaiOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wang_duo@shannonai.com": "wmadao11@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/wang_duo@shannonai.com/zhongxinjiantouKbqaiOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "zhongxinjiantouKbqaiOS/Classes/**/*"
+}
