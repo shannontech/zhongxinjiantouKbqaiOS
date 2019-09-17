@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zhongxinjiantouKbqaiOS'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'Kbqa hybrid SDK for zhongxinjiantou.'
 
 
@@ -26,7 +26,9 @@ A Knowledge-Based question answering library for iOS which can give iOS app a sm
   s.platform     = :ios, '8.0'
   s.requires_arc = true
   # swift版本
-  s.swift_versions = "5.0"
+  if s.respond_to? 'swift_version'
+    s.swift_version = "5.0"
+  end
 
   # 静态库framework位置
   s.vendored_frameworks = 'zhongxinjiantouKbqaiOS/*.{framework}'
